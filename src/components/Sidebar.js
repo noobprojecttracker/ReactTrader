@@ -22,6 +22,8 @@ export default function Sidebar(){
 
           <li>FAQ</li>
 
+          <li>News</li>
+
           <li className="logout" onClick={() => {
             navigate('/login')
             sessionStorage.clear()
