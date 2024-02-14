@@ -30,6 +30,18 @@ export default function MainScreen(){
     const [cash, setCash] = useState(0)
     const [totalValue, setTotalValue] = useState(0)
 
+    useEffect(() => {
+        fetch('/cash', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({userID})
+        }).then(response => response.json().then(
+            thing => {setCash(thing)}
+        ))
+    }, [])
+
 
 
     return (
