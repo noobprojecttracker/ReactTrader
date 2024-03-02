@@ -1,6 +1,4 @@
-[![OpenSSF Scorecard]
-(htt‌ps://api.securityscorecards.dev/projects/github.com/noobprojecttracker/ReactTrader/badge)]
-(htt‌ps://securityscorecards.dev/viewer/?uri=github.com/noobprojecttracker/ReactTrader)
+[![OpenSSF Scorecard](htt‌ps://api.securityscorecards.dev/projects/github.com/noobprojecttracker/ReactTrader/badge)](htt‌ps://securityscorecards.dev/viewer/?uri=github.com/noobprojecttracker/ReactTrader)
 
 # Getting Started with Create React App
 
